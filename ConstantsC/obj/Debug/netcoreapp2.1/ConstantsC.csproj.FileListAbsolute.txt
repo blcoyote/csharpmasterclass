@@ -1,0 +1,11 @@
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\bin\Debug\netcoreapp2.1\ConstantsC.deps.json
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\bin\Debug\netcoreapp2.1\ConstantsC.runtimeconfig.json
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\bin\Debug\netcoreapp2.1\ConstantsC.runtimeconfig.dev.json
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\bin\Debug\netcoreapp2.1\ConstantsC.dll
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\bin\Debug\netcoreapp2.1\ConstantsC.pdb
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.csprojAssemblyReference.cache
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.csproj.CoreCompileInputs.cache
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.AssemblyInfoInputs.cache
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.AssemblyInfo.cs
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.dll
+C:\Users\blc\Documents\GitHub\csharpmasterclass\ConstantsC\obj\Debug\netcoreapp2.1\ConstantsC.pdb
