@@ -38,25 +38,20 @@ namespace HelloWorld{
 			int studentCount = 0;
 			double avgScore;
 			
-			while (score != -1)
-			{
+			while (score != -1)	{
 				Console.WriteLine("Enter student score between 0 and 20, -1 to stop");
-				try
-				{
+				try	{
 					score = Int32.Parse(Console.ReadLine());
 					if (score == -1) { break; }
-					if (score > 20 || score < -1)
-					{
+					if (score > 20 || score < -1){
 						Console.WriteLine("illegal entry, only use numbers between 0 and 20");
 						continue;
 					}
 					totalScore += score;
 					studentCount++;
-				}catch (FormatException)
-				{
+				}catch (FormatException){
 					Console.WriteLine("illegal entry, only use numbers");
 				}
-				
 			}
 			avgScore = (double)totalScore / (double)studentCount; 
 			Console.WriteLine($"The score is = {avgScore} averaged from {studentCount} students");
