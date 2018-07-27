@@ -10,6 +10,7 @@ namespace ConstantsC
             string input = Console.ReadLine();
             string input2 = Console.ReadLine();
             Console.WriteLine(input+input2);
+            Console.Read();
         }
 
 
