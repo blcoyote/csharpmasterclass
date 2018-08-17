@@ -4,9 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld{
+namespace hello_world{
     class Program{
         static void Main(string[] args){
+
+			Human denis = new Human("Denis", "Themenace", "blue", 13);
+			
+			denis.IntroduceMyself();
+			Human carl = new Human("Carl","Sagan", "grey", 48);
+		
+			carl.IntroduceMyself();
+
+			Console.ReadLine();
 			/*
             for (int i = 0; i <=20; i++)
             {
@@ -16,6 +25,7 @@ namespace HelloWorld{
             }
             Console.Read();
             */
+
 			/*
             int counter = 0;
             string peopleCounter = "";
@@ -33,6 +43,7 @@ namespace HelloWorld{
             Console.Read();
 			*/
 
+            /*
 			int score = 0;
 			int totalScore=0;
 			int studentCount = 0;
@@ -56,6 +67,7 @@ namespace HelloWorld{
 			avgScore = (double)totalScore / (double)studentCount; 
 			Console.WriteLine($"The score is = {avgScore} averaged from {studentCount} students");
 			Console.Read();
+            */
         }
     }
 }
