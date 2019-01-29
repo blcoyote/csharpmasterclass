@@ -8,12 +8,18 @@ namespace hello_world{
     class Program{
         static void Main(string[] args){
 
+			Box box = new Box();
+			box.Length = 5;
+			box.Depth = 3;
+			box.Height = 4;
+
+			box.DisplayInfo();
+
+			/*
 			Human denis = new Human("Denis", "Themenace", "blue", 13);
-			
 			denis.IntroduceMyself();
 			Human carl = new Human("Carl","Sagan", "grey", 48);
-		
-			carl.IntroduceMyself();
+			carl.IntroduceMyself();*/
 
 			Console.ReadLine();
 			/*

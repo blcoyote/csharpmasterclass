@@ -17,6 +17,11 @@ namespace hello_world
 		private int age;
 
 		//constructor
+		public Human()
+		{
+			Console.WriteLine("Constructer called, object created!");
+		}
+
 		public Human(string firstName, string lastName, string eyecolour, int age) {
 			this.lastName = lastName;
 			this.firstName = firstName;
@@ -25,7 +30,13 @@ namespace hello_world
 		}
 
 		public void IntroduceMyself() {
-            Console.WriteLine($"Hi, I'm {firstName} {lastName}, my eyes are {eyecolour} and I'm {age} years old");
+			if (age != 0)
+			{
+				Console.WriteLine($"Hi, I'm {firstName} {lastName}, my eyes are {eyecolour} and I'm {age} years old");
+			}
+			else {
+				Console.WriteLine($"Hi, I'm {firstName} {lastName}, my eyes are {eyecolour}");
+			}
         }
 
     }
